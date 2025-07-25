@@ -1,5 +1,8 @@
 import re
 
+
+
+
 def email_checker(email):
     if re.match (r"^[\w\.-]+@[\w\.-]+\.\w+$",email):
         print("email is  Exist")
