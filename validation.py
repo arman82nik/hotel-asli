@@ -12,7 +12,7 @@ def email_checker(email):
         return False
 
 def name_checker(name):
-    if re.match(r"^[a-zA-Z\s{3,30}]$",name):
+    if re.match(r"^[a-zA-Z\s{4,30}]$",name):
         print("name is  Exist")
         return True
     else:
@@ -44,7 +44,7 @@ def postalcode_checker(postalcode):
         return False
 
 def mobile_checker(mobile):
-    if re.match(r"^[0-9]{11}$", mobile):
+    if re.match(r"^0[0-9]{11}$", mobile):
         print("Mobile Number is Valid")
         return True
     else:
